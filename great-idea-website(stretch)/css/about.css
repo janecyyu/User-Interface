@@ -70,17 +70,19 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	height: 80px;
-	background-color: rgba(220, 231, 207, 0.742);
+	/* background-color: rgba(220, 231, 207, 0.742); */
 	position: fixed;
+	color: gray;
+	margin: 20px 300px;
 	top: 0px;
 	width: 100%;
 }
 
 .navigation .button {
 	height: 30px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	display: inline-block;
-	width: 10%;
+	width: 6%;
 	vertical-align: top;
 	box-sizing: border-box;
 	margin: 20px 10px;
@@ -92,7 +94,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .navigation .logo {
-	margin-top: 16px;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	height: 42px;
+	width: 185px;
+	display: inline-block;
+	margin-top: 14px;
+	border: 1px solid black;
+	/* background-image: url(../img/logo.png); */
+
 }
 
 header .banner {
@@ -126,8 +137,7 @@ header .banner {
 }
 
 .row .box .inside_box .icon {
-	margin-left: 31px;
-
+	margin-left: 70px;
 }
 
 

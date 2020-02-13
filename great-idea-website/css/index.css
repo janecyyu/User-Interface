@@ -77,12 +77,14 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	height: 80px;
-	background-color: rgb(220, 231, 207);
+	background-color: white;
+	color: gray;
+	margin: 20px 300px;
 }
 
 .navigation .button {
 	height: 30px;
-	border: 1px solid black;
+	border: 1px solid white;
 	display: inline-block;
 	width: 10%;
 	vertical-align: top;
@@ -90,82 +92,104 @@ h1, h2, h3, h4, h5 {
 	margin: 20px 10px;
 }
 
-.navigation .logo {
-	margin-left: 150px;
-	margin-top: 20px;
-}
 
 header {
 	/* height: 500px; */
-	background-color: rgb(231, 190, 190);
+	background-color:white;
 }
 
 header .right-col, .left-col {
 	height: 379px;
-	border: 1px solid black;
+	border: 1px solid white;
 	display: inline-block;
-	width: 49.5%;
+	width: 10%;
 	vertical-align: top;
 	box-sizing: border-box;
-	margin: 20px 0;
+	margin: 20px 300px;
+	/* border: 1px solid black; */
 }	
 
+header .right-col{
+	margin-left: 0	;
+}
+header .left-col .col .font {
+	font-family: Bangers;
+	font-size: 58px;
+	margin-left: 138px;
+	margin-top: 100px;
+}
+
+header button {
+	margin-left: 175px;
+	margin-top: 38px;
+	font-family: Titillium Web;
+	height: 25px;
+	width: 100px;
+}
+
 .left-col {
-	background-color: rgba(255, 255, 255, 0.721);
+	background-color: white;
 }
 
 header .left-col .col {
 	display: inline-block;
 	width: 100%;
 	height: 50%;
-	border: 1px solid rgb(242, 145, 145);
+	/* border: 1px solid white; */
 }
 
 .top-content {
 	/* height: 200px; */
-	background-color: rgb(192, 217, 245);
+	background-color: white;
+	margin: 20px 300px;
 }
+
 
 .top-content .row {
 	height: 100px;
-	border: 1px solid black;
+	/* border: 1px solid white; */
 	display: inline-block;
-	width: 49.5%;
+	width: 49%;
 	vertical-align: top;
 	box-sizing: border-box;
-	margin: 20px 0;
+	/* margin: 20px 0; */
 }
 
 .bottom-content {
-	background-color: rgb(253, 212, 251);
+	background-color: white;
+	margin: 20px 300px;
+
 }
 
 .middle-img {
-	margin: 20px;
+	margin: auto;
+	/* display: inline-block; */
+	width: 60%;
 }
 
 .bottom-content .row {
 	height: 100px;
-	border: 1px solid black;
+	/* border: 1px solid white; */
 	display: inline-block;
-	width: 33%;
+	width: 27%;
 	vertical-align: top;
 	box-sizing: border-box;
-	margin: 20px 0;
+	margin: 20px;
 }
 
 .contact {
-	height: 100px;
-	background-color: rgb(247, 235, 182);
+	height: 200px;
+	background-color:white;
 	width: 100%;
 	padding:45px 0;
+	margin: 20px 325px;
 }
 
 footer {
 	height: 50px;
 	text-align: center;
 	padding: 20px;
-	background-color: rgb(242, 145, 145);
+	background-color: white;
 }
 
 
