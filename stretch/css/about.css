@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,49 +64,48 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
-	font-family: 'Sriracha', cursive;
+/* * {
+	border: 1px solid black;
+} */
+.container {
+	height: 100%;
+	margin: auto;
+	width: 70%;
+	/* background-color: pink; */
 }
 
-.navigation {
-	height: 80px;
-	/* background-color: rgba(220, 231, 207, 0.742); */
-	position: fixed;
+.navigation{
+	/* height: 80px; */
+	background-color: #fff;
 	color: gray;
-	margin: 20px 300px;
-	top: 0px;
-	width: 100%;
 }
 
-.navigation .button {
-	height: 30px;
-	/* border: 1px solid black; */
+.navigation a {
 	display: inline-block;
-	width: 6%;
+	width: 100px;
+	padding: 10px;
+	margin: 20px;
 	vertical-align: top;
-	box-sizing: border-box;
-	margin: 20px 10px;
 	transition-duration: 0.3s;
 }
-.navigation .button:hover {
+
+.logo {
+
+	display: inline-block;
+	width: 200px;
+	margin: 17px;
+	vertical-align: top;
+	height: 40px;
+	background-image: url(../img/logo.png);
+}
+
+
+.navigation a:hover {
 	color: red;
 	transform: translateY(-8px);
 }
 
-.navigation .logo {
-	text-align: center;
-	padding: 10px;
-	color: #fff;
-	height: 42px;
-	width: 185px;
-	display: inline-block;
-	margin-top: 14px;
-	border: 1px solid black;
-	/* background-image: url(../img/logo.png); */
-
-}
-
-header .banner {
+.banner {
 	background-color: rgb(241, 198, 117);
 	height: 200px;
 	margin: 100px 50px 50px 50px;
@@ -123,7 +122,7 @@ header .banner {
 	border: 1px solid blue;
 	height: 381px;
 	display: inline-block;
-	width: 23.35% ;
+	width: 23% ;
 	margin: 8px;
 	
 }
@@ -137,15 +136,12 @@ header .banner {
 }
 
 .row .box .inside_box .icon {
-	margin-left: 70px;
+	margin-left: 15px;
 }
 
 
 footer {
-	height: 50px;
 	text-align: center;
-	padding: 20px;
-	background-color: rgb(242, 145, 145);
+	font-size: 18px;
+	padding: 10px;;
 }
-
-

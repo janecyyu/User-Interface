@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,132 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/* .navigation ,header .top-content, .bottom-content, .contact, footer{
-	background-color: #fff;
-	color: black;
-	display: inline-block;
-
-}
-
-.navigation {
-	width: 1000px;
+/* * {
+	border: 1px solid black;
 } */
+.container {
+	height: 100%;
+	margin: auto;
+	width: 70%;
+	/* background-color: pink; */
+}
 
-.navigation {
-	height: 80px;
-	background-color: white;
+.navigation{
+	/* height: 80px; */
+	background-color: #fff;
 	color: gray;
-	margin: 20px 300px;
 }
 
-.navigation .button {
-	height: 30px;
-	border: 1px solid white;
+.navigation a {
 	display: inline-block;
-	width: 10%;
-	vertical-align: top;
-	box-sizing: border-box;
-	margin: 20px 10px;
-}
-
-
-header {
-	/* height: 500px; */
-	background-color:white;
-}
-
-header .right-col, .left-col {
-	height: 379px;
-	border: 1px solid white;
-	display: inline-block;
-	width: 10%;
-	vertical-align: top;
-	box-sizing: border-box;
-	margin: 20px 300px;
-	/* border: 1px solid black; */
-}	
-
-header .right-col{
-	margin-left: 0	;
-}
-header .left-col .col .font {
-	font-family: Bangers;
-	font-size: 58px;
-	margin-left: 138px;
-	margin-top: 100px;
-}
-
-header button {
-	margin-left: 175px;
-	margin-top: 38px;
-	font-family: Titillium Web;
-	height: 25px;
 	width: 100px;
-}
-
-.left-col {
-	background-color: white;
-}
-
-header .left-col .col {
-	display: inline-block;
-	width: 100%;
-	height: 50%;
-	/* border: 1px solid white; */
-}
-
-.top-content {
-	/* height: 200px; */
-	background-color: white;
-	margin: 20px 300px;
-}
-
-
-.top-content .row {
-	height: 100px;
-	/* border: 1px solid white; */
-	display: inline-block;
-	width: 49%;
+	padding: 10px;
+	margin: 20px;
 	vertical-align: top;
-	box-sizing: border-box;
-	/* margin: 20px 0; */
 }
 
-.bottom-content {
-	background-color: white;
-	margin: 20px 300px;
+button{
+	height: 40px;
+	width: 120px;
+	font-family: cursive;
+}
 
+.logo {
+	display: inline-block;
+	width: 200px;
+	margin: 17px;
+	vertical-align: top;
+}
+
+.row {
+	background-color: white;
+	/* height: 500px; */
+}
+
+.row .two_col {
+	/* background-color: red; */
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+	margin: 20px 0px 20px 20px ;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+.top_content {
+	/* background-color: red; */
+	/* height: 200px; */
+	margin: 20px 10px;
+	line-height: 20px;
+}
+
+.top_content .top_content_row {
+	display: inline-block;
+	width: 49.8%;
+}
+h3 {
+	font-size: 24px;
 }
 
 .middle-img {
-	margin: auto;
-	/* display: inline-block; */
-	width: 60%;
+	margin: 20px auto;
+	width: 100%;
 }
 
-.bottom-content .row {
-	height: 100px;
-	/* border: 1px solid white; */
+.bottom_content {
+	/* background-color: red; */
+	/* height:300px; */
+	line-height: 20px;
+}
+
+.bottom_content .three_col {
 	display: inline-block;
-	width: 27%;
-	vertical-align: top;
-	box-sizing: border-box;
-	margin: 20px;
+	width: 33.1%;
 }
 
 .contact {
-	height: 200px;
-	background-color:white;
-	width: 100%;
-	padding:45px 0;
-	margin: 20px 325px;
+	/* background-color: red; */
+	margin: 30px 0px;
+	line-height: 20px;;
 }
 
 footer {
-	height: 50px;
 	text-align: center;
-	padding: 20px;
-	background-color: white;
+	font-size: 18px;
+	padding: 10px;;
 }
-
-
